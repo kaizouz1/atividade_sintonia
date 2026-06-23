@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: burlywood;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ max-width: 100%;
+}
+
+.container {
+    width: 180px;
+    height: 275px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.container-banner img {
+    display: block;
+    width: 180px;
+}
+
+.container-banner {
+    width: 180px;   
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+   
+}
+
+.container-perso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    height: 1px;
+    left: 296px;
+}
+
+.container-perso img{
+    width: 50px;    
+    height: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nome{
+    background-color: blue;
+    width: 150px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.nome h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+}
+
+.info{
+    background-color: aquamarine;
+    width: 150px;
+}
+
+.seguindo{
+    background-color: brown;
+}
+
+.seguidores{
+    background-color: cadetblue;
+}
+
+.botao{
+    background-color: yellow;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
