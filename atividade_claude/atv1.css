@@ -14,25 +14,24 @@ body{
 }
 
 .container {
-    width: 180px;
-    height: 275px;
-    background-color: aliceblue;
+    width: 225px;
+    height: 325px;
+    background-color: rgb(45, 43, 43);
     display: flex;
     border-radius: 20px;
     flex-direction: column;
+    position: relative;
 }
 
 .container-banner img {
     display: block;
-    width: 180px;
+    width: 100%;
 }
 
 .container-banner {
-    width: 180px;   
+    width: 225px; 
     border-radius: 12px;
     overflow: hidden;
-    background: white;
-   
 }
 
 .container-perso{
@@ -40,9 +39,11 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 80px;
-    height: 1px;
-    left: 296px;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .container-perso img{
@@ -62,37 +63,57 @@ body{
 
 .nome{
     background-color: blue;
-    width: 150px;
-    height: 43px;
+    width: 225px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: end;
+    
 }
 
-.nome h6{
+.nome h3{
+    font-size: 20px;
+}
+
+.nome h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5px;
+    font-size: 13px;
 }
 
 .info{
-    background-color: aquamarine;
-    width: 150px;
+    width: 225px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info p{
+    color: gainsboro
 }
 
 .seguindo{
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 125px;
 }
 
 .seguidores{
-    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 125px;
 }
 
 .botao{
     background-color: yellow;
-    width: 150px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
 }
